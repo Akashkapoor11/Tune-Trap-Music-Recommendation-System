@@ -1,0 +1,7 @@
+opencv-python
+mediapipe
+streamlit
+google-api-python-client
+numpy
+tensorflow>=2.10
+pillow

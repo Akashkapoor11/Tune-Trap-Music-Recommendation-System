@@ -1,0 +1,5 @@
+Demo recording instructions:
+1. Run the app (streamlit run app.py)
+2. Start webcam and show different facial expressions: happy, sad, angry, surprised, neutral.
+3. Use an OS screen recorder (OBS Studio / Xbox Game Bar / QuickTime) to record a 30s demo.
+4. Save demo as MP4 and upload with your GroundTruth submission. Mention in the submission which model/mode you used (mediapipe or keras) and the accuracy on your validation set (if you trained one).
