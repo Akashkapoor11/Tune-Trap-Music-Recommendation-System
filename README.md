@@ -43,15 +43,7 @@ TUNE TRAP captures facial expressions from your webcam, detects the user's emoti
 
 5. Click **Start Webcam** in the sidebar. Allow webcam access if prompted by your OS.
 
-## Notes & tips
-- The app defaults to **mediapipe** heuristic mode which works out-of-the-box and requires no model file.
-- **Keras mode** requires a trained model (`models/trained_model.h5`). The project includes a training script idea in comments in the repository; training is optional.
-- If you want higher accuracy, collect webcam-face images for your domain and fine-tune a transfer-learning model (MobileNet/EfficientNet) — training scripts are not included in this zip to keep size small.
-- If YouTube API calls fail or you don't supply a key, the app shows safe fallback playlist links.
-- On some systems, OpenCV may use a different camera index (0,1...). Edit `cv2.VideoCapture(0)` in `app.py` if needed.
+## Deployment Link
+https://youtu.be/aFha5go2teY
 
-## To include in your GroundTruth submission
-- Add a short demo video (screen recording) showing the app detecting different emotions and the changing recommendations.
-- Link to the GitHub repo and include model/training notes and sample accuracy metric (on your validation set).
 
-Good luck — paste this text into your GroundTruth form and attach the zip!
