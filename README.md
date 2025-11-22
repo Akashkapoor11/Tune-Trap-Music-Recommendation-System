@@ -1,4 +1,4 @@
-🎧 TUNE TRAP – Emotion-Based Music Recommendation System
+## 🎧 TUNE TRAP – Emotion-Based Music Recommendation System
 
 A real-time facial emotion detection system that recommends music based on your mood.
 
@@ -7,7 +7,7 @@ TUNE TRAP uses MediaPipe Face Mesh, OpenCV, and a heuristic emotion detection al
 🚀 Features
 🎭 Emotion Detection
 
-Detects 5 emotions in real time:
+## Detects 5 emotions in real time:
 
 🙂 Happy
 
@@ -19,7 +19,7 @@ Detects 5 emotions in real time:
 
 😐 Neutral
 
-Uses:
+## Uses:
 
 MediaPipe FaceMesh
 
@@ -41,7 +41,7 @@ Live emotion result
 
 Song list generated instantly
 
-📁 Project Structure
+## 📁 Project Structure
 TUNE_TRAP_FULL/
 │
 ├── app.py                    # Streamlit app
@@ -65,7 +65,7 @@ TUNE_TRAP_FULL/
 ├── README.md
 └── train_emotion.py          # Training script (optional)
 
-🛠 Installation (Local System – VS Code)
+## 🛠 Installation (Local System – VS Code)
 1️⃣ Create Virtual Environment
 python -m venv venv
 
@@ -93,12 +93,12 @@ Create file:
 
 Paste:
 
-YOUTUBE_API_KEY = "YOUR_API_KEY_HERE"
+## YOUTUBE_API_KEY = "YOUR_API_KEY_HERE"
 
 
 If no key is added → offline fallback song recommendations will be used.
 
-▶️ Run the Application
+## ▶️ Run the Application
 streamlit run app.py
 
 
@@ -114,7 +114,7 @@ See emotion detection in real time
 
 Music suggestions appear instantly
 
-📦 Deployment
+## 📦 Deployment
 Streamlit Cloud
 
 Upload your GitHub repo → Select app.py as the main entry file.
@@ -131,7 +131,7 @@ Gradio
 
 (Ask me if you want the FastAPI or Gradio version!)
 
-📊 Model Accuracy Testing
+## 📊 Model Accuracy Testing
 
 Run:
 
@@ -146,7 +146,6 @@ Akash Kapoor
 🎓 B.Tech (CSE), PSIT Kanpur
 💼 Emotion AI & ML Developer
 
-📽 Demo Video
+## 📽 Demo Video
 
-YouTube Project Video:
 https://youtu.be/aFha5go2teY
