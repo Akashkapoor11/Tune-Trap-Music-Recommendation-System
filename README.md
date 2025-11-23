@@ -41,29 +41,6 @@ Live emotion result
 
 Song list generated instantly
 
-## 📁 Project Structure
-TUNE_TRAP_FULL/
-│
-├── app.py                    # Streamlit app
-├── advanced_app.py           # (Optional UI version)
-├── emotion_detector.py       # Core emotion detection logic
-├── utils.py                  # YouTube search + fallbacks
-├── accuracy_test.py          # Evaluate model accuracy
-│
-├── assets/
-│   ├── logo.png
-│   └── logo_dark.png
-│
-├── models/                   # (Optional) store Keras emotion model here
-│   └── trained_model.h5
-│
-├── .streamlit/
-│   ├── secrets.toml          # Contains YouTube API key
-│   └── secrets.toml.example
-│
-├── requirements.txt          # Core dependencies
-├── README.md
-└── train_emotion.py          # Training script (optional)
 
 ## 🛠 Installation (Local System – VS Code)
 1️⃣ Create Virtual Environment
@@ -139,12 +116,6 @@ python accuracy_test.py
 
 
 This checks accuracy on your dataset using the heuristic or ML model.
-
-❤️ Author
-
-Akash Kapoor
-🎓 B.Tech (CSE), PSIT Kanpur
-💼 Emotion AI & ML Developer
 
 ## 📽 Demo Video
 
